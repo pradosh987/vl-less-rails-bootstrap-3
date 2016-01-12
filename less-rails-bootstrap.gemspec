@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "less/rails/bootstrap/version"
+require "less/rails/bootstrap3/version"
 
 Gem::Specification.new do |gem|
   gem.name          = 'less-rails-bootstrap'
-  gem.version       = Less::Rails::Bootstrap::VERSION
+  gem.version       = Less::Rails::Bootstrap3::VERSION
   gem.authors       = ['Ken Collins']
   gem.email         = ['ken@metaskills.net']
   gem.homepage      = 'http://github.com/metaskills/less-rails-bootstrap'

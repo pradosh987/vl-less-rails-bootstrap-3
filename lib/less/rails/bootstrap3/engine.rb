@@ -2,7 +2,7 @@ require 'rails'
 
 module Less
   module Rails
-    module Bootstrap
+    module Bootstrap3
       class Engine < ::Rails::Engine
         
         initializer 'less-rails-bootstrap.setup', :after => 'less-rails.before.load_config_initializers', :group => :all do |app|

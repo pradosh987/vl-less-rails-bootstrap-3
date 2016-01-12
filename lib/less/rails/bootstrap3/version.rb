@@ -1,6 +1,6 @@
 module Less
   module Rails
-    module Bootstrap
+    module Bootstrap3
       VERSION = '3.3.5.0'
     end
   end

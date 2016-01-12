@@ -1,0 +1,12 @@
+//= require twitter/bootstrap3/transition.js
+//= require twitter/bootstrap3/alert.js
+//= require twitter/bootstrap3/button.js
+//= require twitter/bootstrap3/carousel.js
+//= require twitter/bootstrap3/collapse.js
+//= require twitter/bootstrap3/dropdown.js
+//= require twitter/bootstrap3/modal.js
+//= require twitter/bootstrap3/tooltip.js
+//= require twitter/bootstrap3/popover.js
+//= require twitter/bootstrap3/scrollspy.js
+//= require twitter/bootstrap3/tab.js
+//= require twitter/bootstrap3/affix.js
