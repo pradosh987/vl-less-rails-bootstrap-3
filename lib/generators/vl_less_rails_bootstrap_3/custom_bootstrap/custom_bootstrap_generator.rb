@@ -1,4 +1,4 @@
-module LessRailsBootstrap
+module VlLessRailsBootstrap3
   module Generators
     class CustomBootstrapGenerator < Rails::Generators::Base
 
@@ -7,7 +7,7 @@ module LessRailsBootstrap
       def create_custom_bootstrap
         create_file 'app/assets/stylesheets/custom_bootstrap/custom_bootstrap.less' do
           gem_app_dir = File.expand_path('../../../../../app', __FILE__)
-          source_file = File.join(gem_app_dir, 'frameworks', 'twitter', 'bootstrap', 'bootstrap.less')
+          source_file = File.join(gem_app_dir, 'frameworks', 'twitter', 'bootstrap3', 'bootstrap.less')
 
           lines = File.readlines(source_file)
 
@@ -41,7 +41,7 @@ module LessRailsBootstrap
 
       def change_paths_to_less_files(lines)
         lines.each do |line|
-          line.gsub!(/(@import ")(.+)(";)/, '\1twitter/bootstrap/\2\3')
+          line.gsub!(/(@import ")(.+)(";)/, '\1twitter/bootstrap3/\2\3')
         end
       end
 

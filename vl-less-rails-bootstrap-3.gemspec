@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "less/rails/bootstrap3/version"
 
 Gem::Specification.new do |gem|
-  gem.name          = 'vl_less-rails-bootstrap_3'
+  gem.name          = 'vl-less-rails-bootstrap-3'
   gem.version       = Less::Rails::Bootstrap3::VERSION
   gem.authors       = ['Ken Collins']
   gem.email         = ['ken@metaskills.net']
-  gem.homepage      = 'http://github.com/pradosh987/less-rails-bootstrap'
+  gem.homepage      = 'http://github.com/pradosh987/vl-less-rails-bootstrap-3'
   gem.summary       = 'CSS toolkit from Twitter For Rails 3.1+ Asset Pipeline'
   gem.description   = 'CSS toolkit from Twitter For Rails 3.1+ Asset Pipeline. Best one of all!'
   gem.license       = 'MIT'
